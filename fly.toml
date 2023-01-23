@@ -1,6 +1,6 @@
-# fly.toml file generated for rough-breeze-8628 on 2023-01-23T07:25:36Z
+# fly.toml file generated for sparkling-wood-3362 on 2023-01-23T08:01:03Z
 
-app = "rough-breeze-8628"
+app = "sparkling-wood-3362"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -14,7 +14,7 @@ processes = []
   APP_DEBUG = "false"
   APP_ENV = "production"
   APP_NAME = "Tasklist"
-  APP_URL = "https://rough-breeze-8628.fly.dev/"
+  APP_URL = "https://sparkling-wood-3362.fly.dev"
   DB_CONNECTION = "pgsql"
   DB_DATABASE = "postgres"
   DB_HOST = "db.igsehznrrbupmvynuezh.supabase.co"
