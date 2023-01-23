@@ -24,6 +24,7 @@ class TasksController extends Controller
         if (Auth::check()) { // 認証済みの場合
             // 認証済みユーザを取得
             $user = Auth::user();
+            $tasks = $user->tasks()->orderBy('created_at', 'desc')->paginate(10);
         }
         
         // メッセージ一覧ビューでそれを表示
